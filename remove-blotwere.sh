@@ -19,7 +19,6 @@ pm uninstall -k --user 0 com.miui.marketfeedbackagent # Market Feedback Agent
 pm uninstall -k --user 0 com.miui.mail               # Mail
 pm uninstall -k --user 0 com.miui.cloud              # Mi Cloud
 pm uninstall -k --user 0 com.miui.credit             # Mi Credit
-pm uninstall -k --user 0 com.google.android.apps.messaging
 
 
 pm uninstall -k --user 0 com.miui.mover              # Mi Mover
@@ -72,7 +71,7 @@ pm uninstall -k --user 0 com.miui.miservice
 pm uninstall -k --user 0 com.miui.micloudsync
 pm uninstall -k --user 0 com.xiaomi.glgm
 pm uninstall -k --user 0 com.xiaomi.xmsf
-
+pm uninstall -k --user 0 com.android.mms
 
 
 
