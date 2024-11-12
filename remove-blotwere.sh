@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# some packagenames might be old and diffrent
+# Uninstall each package with app names as comments
 pm uninstall -k --user 0 com.miui.analytics          # Analytics
 pm uninstall -k --user 0 com.mi.globalminusscreen           # App Vault
 pm uninstall -k --user 0 com.miui.backup             # Backup
@@ -20,6 +20,7 @@ pm uninstall -k --user 0 com.miui.mail               # Mail
 pm uninstall -k --user 0 com.miui.cloud              # Mi Cloud
 pm uninstall -k --user 0 com.miui.credit             # Mi Credit
 pm uninstall -k --user 0 com.google.android.apps.messaging
+
 
 pm uninstall -k --user 0 com.miui.mover              # Mi Mover
 pm uninstall -k --user 0 com.miui.pay                # Mi Pay
@@ -45,7 +46,7 @@ pm uninstall -k --user 0 com.miui.uniservice         # UniPlay Service
 pm uninstall -k --user 0 com.miui.yellowpages        # Yellow Pages
 
 
-# gapps and some other stuff
+
 pm uninstall -k --user 0 com.google.android.apps.subscriptions.red
 pm uninstall -k --user 0 com.google.android.apps.healthdata
 pm uninstall -k --user 0 com.google.android.apps.setupwizard.searchselector
@@ -69,6 +70,11 @@ pm uninstall -k --user 0 com.miui.cloudservice
 pm uninstall -k --user 0 com.google.android.apps.turbo
 pm uninstall -k --user 0 com.miui.miservice
 pm uninstall -k --user 0 com.miui.micloudsync
+pm uninstall -k --user 0 com.xiaomi.glgm
+pm uninstall -k --user 0 com.xiaomi.xmsf
+
+
+
 
 echo "Uninstallation complete."
 
