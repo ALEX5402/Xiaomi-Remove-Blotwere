@@ -1,77 +1,77 @@
 #!/bin/bash
 
 # Uninstall each package with app names as comments
-pm uninstall -k --user 0 com.miui.analytics          # Analytics
-pm uninstall -k --user 0 com.mi.globalminusscreen           # App Vault
-pm uninstall -k --user 0 com.miui.backup             # Backup
-pm uninstall -k --user 0 com.miui.browser            # Browser
+adb shell pm uninstall -k --user 0 com.miui.analytics          # Analytics
+adb shell pm uninstall -k --user 0 com.mi.globalminusscreen           # App Vault
+adb shell pm uninstall -k --user 0 com.miui.backup             # Backup
+adb shell pm uninstall -k --user 0 com.miui.browser            # Browser
 
-pm uninstall -k --user 0 com.miui.digitalwellbeing   # Digital Wellbeing
-pm uninstall -k --user 0 com.miui.downloads          # Downloads
-pm uninstall -k --user 0 com.miui.fmradio            # FM Radio
-pm uninstall -k --user 0 com.facebook.katana         # Facebook
-pm uninstall -k --user 0 com.miui.feedback           # Feedback
-pm uninstall -k --user 0 com.miui.games              # Games
-pm uninstall -k --user 0 com.xiaomi.mipicks            # GetApps (Only for Global ROM)
-pm uninstall -k --user 0 com.miui.hybridaccessory    # Hybrid Accessory
-pm uninstall -k --user 0 com.miui.msa                # MSA
-pm uninstall -k --user 0 com.miui.marketfeedbackagent # Market Feedback Agent
-pm uninstall -k --user 0 com.miui.mail               # Mail
-pm uninstall -k --user 0 com.miui.cloud              # Mi Cloud
-pm uninstall -k --user 0 com.miui.credit             # Mi Credit
-
-
-pm uninstall -k --user 0 com.miui.mover              # Mi Mover
-pm uninstall -k --user 0 com.miui.pay                # Mi Pay
-
-pm uninstall -k --user 0 com.miui.recycle            # Mi Recycle
-pm uninstall -k --user 0 com.miui.connectservice     # MiConnectService
-pm uninstall -k --user 0 com.miui.playclient         # MiPlayClient
-pm uninstall -k --user 0 com.miui.wallpapercarousel  # Mi Wallpaper Carousel
-pm uninstall -k --user 0 com.miui.daemon             # MiuiDaemon
-pm uninstall -k --user 0 com.miui.music              # Music
-pm uninstall -k --user 0 com.miui.nextpay            # NextPay
-pm uninstall -k --user 0 com.miui.notes              # Notes
-pm uninstall -k --user 0 com.miui.pai                # PAI
-pm uninstall -k --user 0 com.miui.partnerbookmarks   # P
-pm uninstall -k --user 0 com.miui.quickapps          # Quick Apps
-pm uninstall -k --user 0 com.miui.quickball   
-pm uninstall -k --user 0 com.miui.search             
-pm uninstall -k --user 0 com.miui.smsextra           # SMS Extra
-pm uninstall -k --user 0 com.miui.scanner            # Scanner
-pm uninstall -k --user 0 com.miui.services           # Services & Feedback
-pm uninstall -k --user 0 com.miui.soterservice       # Soter Service
-pm uninstall -k --user 0 com.miui.uniservice         # UniPlay Service
-pm uninstall -k --user 0 com.miui.yellowpages        # Yellow Pages
+adb shell pm uninstall -k --user 0 com.miui.digitalwellbeing   # Digital Wellbeing
+adb shell pm uninstall -k --user 0 com.miui.downloads          # Downloads
+adb shell pm uninstall -k --user 0 com.miui.fmradio            # FM Radio
+adb shell pm uninstall -k --user 0 com.facebook.katana         # Facebook
+adb shell pm uninstall -k --user 0 com.miui.feedback           # Feedback
+adb shell pm uninstall -k --user 0 com.miui.games              # Games
+adb shell pm uninstall -k --user 0 com.xiaomi.mipicks            # GetApps (Only for Global ROM)
+adb shell pm uninstall -k --user 0 com.miui.hybridaccessory    # Hybrid Accessory
+adb shell pm uninstall -k --user 0 com.miui.msa                # MSA
+adb shell pm uninstall -k --user 0 com.miui.marketfeedbackagent # Market Feedback Agent
+adb shell pm uninstall -k --user 0 com.miui.mail               # Mail
+adb shell pm uninstall -k --user 0 com.miui.cloud              # Mi Cloud
+adb shell pm uninstall -k --user 0 com.miui.credit             # Mi Credit
 
 
+adb shell pm uninstall -k --user 0 com.miui.mover              # Mi Mover
+adb shell pm uninstall -k --user 0 com.miui.pay                # Mi Pay
 
-pm uninstall -k --user 0 com.google.android.apps.subscriptions.red
-pm uninstall -k --user 0 com.google.android.apps.healthdata
-pm uninstall -k --user 0 com.google.android.apps.setupwizard.searchselector
-pm uninstall -k --user 0 com.miui.player
-pm uninstall -k --user 0 com.miui.global.packageinstaller
-pm uninstall -k --user 0 com.milink.service
-pm uninstall -k --user 0 com.xiaomi.payment
-pm uninstall -k --user 0 com.xiaomi.mi_connect_service
-pm uninstall -k --user 0 com.miui.msa.global
-pm uninstall -k --user 0 com.mi.healthglobal
-pm uninstall -k --user 0 com.google.android.apps.safetyhub
-pm uninstall -k --user 0 com.android.nfc
-pm uninstall -k --user 0 com.google.android.apps.tachyon
-pm uninstall -k --user 0 com.facebook.services
-pm uninstall -k --user 0 com.miui.misound
-pm uninstall -k --user 0 com.miui.bugreport
-pm uninstall -k --user 0 com.google.android.apps.wellbeing
-pm uninstall -k --user 0 com.miui.cloudbackup
-pm uninstall -k --user 0 com.google.android.videos
-pm uninstall -k --user 0 com.miui.cloudservice
-pm uninstall -k --user 0 com.google.android.apps.turbo
-pm uninstall -k --user 0 com.miui.miservice
-pm uninstall -k --user 0 com.miui.micloudsync
-pm uninstall -k --user 0 com.xiaomi.glgm
-pm uninstall -k --user 0 com.xiaomi.xmsf
-pm uninstall -k --user 0 com.android.mms
+adb shell pm uninstall -k --user 0 com.miui.recycle            # Mi Recycle
+adb shell pm uninstall -k --user 0 com.miui.connectservice     # MiConnectService
+adb shell pm uninstall -k --user 0 com.miui.playclient         # MiPlayClient
+adb shell pm uninstall -k --user 0 com.miui.wallpapercarousel  # Mi Wallpaper Carousel
+adb shell pm uninstall -k --user 0 com.miui.daemon             # MiuiDaemon
+adb shell pm uninstall -k --user 0 com.miui.music              # Music
+adb shell pm uninstall -k --user 0 com.miui.nextpay            # NextPay
+adb shell pm uninstall -k --user 0 com.miui.notes              # Notes
+adb shell pm uninstall -k --user 0 com.miui.pai                # PAI
+adb shell pm uninstall -k --user 0 com.miui.partnerbookmarks   # P
+adb shell pm uninstall -k --user 0 com.miui.quickapps          # Quick Apps
+adb shell pm uninstall -k --user 0 com.miui.quickball   
+adb shell pm uninstall -k --user 0 com.miui.search             
+adb shell pm uninstall -k --user 0 com.miui.smsextra           # SMS Extra
+adb shell pm uninstall -k --user 0 com.miui.scanner            # Scanner
+adb shell pm uninstall -k --user 0 com.miui.services           # Services & Feedback
+adb shell pm uninstall -k --user 0 com.miui.soterservice       # Soter Service
+adb shell pm uninstall -k --user 0 com.miui.uniservice         # UniPlay Service
+adb shell pm uninstall -k --user 0 com.miui.yellowpages        # Yellow Pages
+
+
+
+adb shell pm uninstall -k --user 0 com.google.android.apps.subscriptions.red
+adb shell pm uninstall -k --user 0 com.google.android.apps.healthdata
+adb shell pm uninstall -k --user 0 com.google.android.apps.setupwizard.searchselector
+adb shell pm uninstall -k --user 0 com.miui.player
+adb shell pm uninstall -k --user 0 com.miui.global.packageinstaller
+adb shell pm uninstall -k --user 0 com.milink.service
+adb shell pm uninstall -k --user 0 com.xiaomi.payment
+adb shell pm uninstall -k --user 0 com.xiaomi.mi_connect_service
+adb shell pm uninstall -k --user 0 com.miui.msa.global
+adb shell pm uninstall -k --user 0 com.mi.healthglobal
+adb shell pm uninstall -k --user 0 com.google.android.apps.safetyhub
+adb shell pm uninstall -k --user 0 com.android.nfc
+adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon
+adb shell pm uninstall -k --user 0 com.facebook.services
+adb shell pm uninstall -k --user 0 com.miui.misound
+adb shell pm uninstall -k --user 0 com.miui.bugreport
+adb shell pm uninstall -k --user 0 com.google.android.apps.wellbeing
+adb shell pm uninstall -k --user 0 com.miui.cloudbackup
+adb shell pm uninstall -k --user 0 com.google.android.videos
+adb shell pm uninstall -k --user 0 com.miui.cloudservice
+adb shell pm uninstall -k --user 0 com.google.android.apps.turbo
+adb shell pm uninstall -k --user 0 com.miui.miservice
+adb shell pm uninstall -k --user 0 com.miui.micloudsync
+adb shell pm uninstall -k --user 0 com.xiaomi.glgm
+adb shell pm uninstall -k --user 0 com.xiaomi.xmsf
+adb shell pm uninstall -k --user 0 com.android.mms
 
 
 
